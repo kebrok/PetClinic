@@ -1,4 +1,4 @@
-package fr.afcepf.ad1.springpetclinic;
+package springpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
