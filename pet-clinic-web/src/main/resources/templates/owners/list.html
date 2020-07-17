@@ -2,20 +2,20 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>List of vets</title>
+    <title>List of owners</title>
 </head>
 <body>
-<h2>List of vets</h2>
+<h2>List of owners</h2>
 <table>
     <tr>
         <th>Id</th>
         <th>First name</th>
         <th>Last name</th>
     </tr>
-    <tr th:each="vet : ${vets}">
-        <td th:text="${vet.id}">Id</td>
-        <td th:text="${vet.firstName}">John</td>
-        <td th:text="${vet.lastName}">Doe</td>
+    <tr th:each="owner : ${owners}">
+        <td th:text="${owner.id}">Id</td>
+        <td th:text="${owner.firstName}">John</td>
+        <td th:text="${owner.lastName}">Doe</td>
     </tr>
 </table>
 </body>
